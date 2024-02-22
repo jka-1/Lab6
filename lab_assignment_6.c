@@ -49,7 +49,7 @@ int main(void)
 	int index;
 	int* numArray = NULL;
 	int countOfNums;
-	FILE* inFile = fopen("C:/Users/Jayad/OneDrive/Desktop/~misc~/CODE/input.txt","r");
+	FILE* inFile = fopen("input.txt","r");
 
 	fscanf(inFile, " %d\n", &numInputs);
 	
